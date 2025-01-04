@@ -164,7 +164,7 @@ if(quiz[quizIndex].correct === e.target.textContent){
    window.alert('正解！');
     score++;
    } else {
-   window.alert('不正解！');
+   window.alert('不正解！正解は「' + quiz[quizIndex].correct + '」');
    }
 
      quizIndex++;
